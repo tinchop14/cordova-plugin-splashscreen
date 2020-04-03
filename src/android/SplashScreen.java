@@ -334,7 +334,7 @@ public class SplashScreen extends CordovaPlugin {
                         LOG.w("SplashScreen StatusBarColor", "Method window.setStatusBarColor not found for SDK level " + Build.VERSION.SDK_INT);
                     }
                 }
-                String navigationBarColor = preferences.getString("SplashNavigationBarBackgroundColor", "#000000");
+                String navigationBarColor = preferences.getString("SplashNavigationBarBackgroundColor", "#FFFFFF");
 
                 if (navigationBarColor != null && !navigationBarColor.isEmpty() && Build.VERSION.SDK_INT >= 19) {
 
