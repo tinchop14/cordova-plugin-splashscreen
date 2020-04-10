@@ -320,7 +320,7 @@ public class SplashScreen extends CordovaPlugin {
                 }
 
                 // Inspirated in https://github.com/apache/cordova-plugin-splashscreen/pull/124/files
-                String statusBarColor = preferences.getString("SplashStatusBarBackgroundColor", "#000000");
+                String statusBarColor = preferences.getString("SplashStatusBarBackgroundColor", "#FFFFFF");
 
                 if (statusBarColor != null && !statusBarColor.isEmpty() && Build.VERSION.SDK_INT >= 19) {
 
